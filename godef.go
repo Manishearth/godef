@@ -15,11 +15,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/rogpeppe/godef/go/ast"
-	"github.com/rogpeppe/godef/go/parser"
-	"github.com/rogpeppe/godef/go/printer"
-	"github.com/rogpeppe/godef/go/token"
-	"github.com/rogpeppe/godef/go/types"
+	"./go_local/ast"
+	"./go_local/parser"
+	"./go_local/printer"
+	"./go_local/token"
+	"./go_local/types"
 )
 
 var readStdin = flag.Bool("i", false, "read file from stdin")
